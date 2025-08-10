@@ -5,7 +5,7 @@
 
 using namespace std;
 int main(){
-    vector<int> arr = {1, 2, 3, 5, 2, 9, 7, 3, 5};
+    vector<int> arr = {1, 2, 7, 3, 5};
     unordered_map<int, int> oho;
     for(int num : arr){
         oho[num]++;
